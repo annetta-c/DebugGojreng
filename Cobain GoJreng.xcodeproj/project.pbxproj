@@ -184,17 +184,17 @@
 		0BD9BB152673A8A9005DD71E /* f#m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "f#m.mp3"; sourceTree = "<group>"; };
 		0BD9BB162673A8A9005DD71E /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#.mp3"; sourceTree = "<group>"; };
 		0BD9BB172673A8A9005DD71E /* bm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bm.mp3; sourceTree = "<group>"; };
-		55F130F62669EF23008BFC97 /* GoJreng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoJreng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F130F62669EF23008BFC97 /* Cobain GoJreng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cobain GoJreng.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F130F92669EF23008BFC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55F130FB2669EF23008BFC97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55F131032669EF23008BFC97 /* GoJreng.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoJreng.xcdatamodel; sourceTree = "<group>"; };
 		55F131052669EF26008BFC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F131082669EF26008BFC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F1310A2669EF26008BFC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55F1310F2669EF26008BFC97 /* GoJrengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoJrengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F1310F2669EF26008BFC97 /* Cobain GoJrengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cobain GoJrengTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F131132669EF26008BFC97 /* GoJrengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoJrengTests.swift; sourceTree = "<group>"; };
 		55F131152669EF26008BFC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55F1311A2669EF26008BFC97 /* GoJrengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoJrengUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F1311A2669EF26008BFC97 /* Cobain GoJrengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cobain GoJrengUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F1311E2669EF26008BFC97 /* GoJrengUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoJrengUITests.swift; sourceTree = "<group>"; };
 		55F131202669EF26008BFC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F131DA2672002E008BFC97 /* ExitPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitPresentationController.swift; sourceTree = "<group>"; };
@@ -385,9 +385,9 @@
 		55F130F72669EF23008BFC97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55F130F62669EF23008BFC97 /* GoJreng.app */,
-				55F1310F2669EF26008BFC97 /* GoJrengTests.xctest */,
-				55F1311A2669EF26008BFC97 /* GoJrengUITests.xctest */,
+				55F130F62669EF23008BFC97 /* Cobain GoJreng.app */,
+				55F1310F2669EF26008BFC97 /* Cobain GoJrengTests.xctest */,
+				55F1311A2669EF26008BFC97 /* Cobain GoJrengUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -664,9 +664,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55F130F52669EF23008BFC97 /* GoJreng */ = {
+		55F130F52669EF23008BFC97 /* Cobain GoJreng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55F131232669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJreng" */;
+			buildConfigurationList = 55F131232669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJreng" */;
 			buildPhases = (
 				55F130F22669EF23008BFC97 /* Sources */,
 				55F130F32669EF23008BFC97 /* Frameworks */,
@@ -676,14 +676,14 @@
 			);
 			dependencies = (
 			);
-			name = GoJreng;
+			name = "Cobain GoJreng";
 			productName = GoJreng;
-			productReference = 55F130F62669EF23008BFC97 /* GoJreng.app */;
+			productReference = 55F130F62669EF23008BFC97 /* Cobain GoJreng.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55F1310E2669EF26008BFC97 /* GoJrengTests */ = {
+		55F1310E2669EF26008BFC97 /* Cobain GoJrengTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55F131262669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJrengTests" */;
+			buildConfigurationList = 55F131262669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJrengTests" */;
 			buildPhases = (
 				55F1310B2669EF26008BFC97 /* Sources */,
 				55F1310C2669EF26008BFC97 /* Frameworks */,
@@ -694,14 +694,14 @@
 			dependencies = (
 				55F131112669EF26008BFC97 /* PBXTargetDependency */,
 			);
-			name = GoJrengTests;
+			name = "Cobain GoJrengTests";
 			productName = GoJrengTests;
-			productReference = 55F1310F2669EF26008BFC97 /* GoJrengTests.xctest */;
+			productReference = 55F1310F2669EF26008BFC97 /* Cobain GoJrengTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		55F131192669EF26008BFC97 /* GoJrengUITests */ = {
+		55F131192669EF26008BFC97 /* Cobain GoJrengUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55F131292669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJrengUITests" */;
+			buildConfigurationList = 55F131292669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJrengUITests" */;
 			buildPhases = (
 				55F131162669EF26008BFC97 /* Sources */,
 				55F131172669EF26008BFC97 /* Frameworks */,
@@ -712,9 +712,9 @@
 			dependencies = (
 				55F1311C2669EF26008BFC97 /* PBXTargetDependency */,
 			);
-			name = GoJrengUITests;
+			name = "Cobain GoJrengUITests";
 			productName = GoJrengUITests;
-			productReference = 55F1311A2669EF26008BFC97 /* GoJrengUITests.xctest */;
+			productReference = 55F1311A2669EF26008BFC97 /* Cobain GoJrengUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -743,7 +743,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55F130F12669EF23008BFC97 /* Build configuration list for PBXProject "GoJreng" */;
+			buildConfigurationList = 55F130F12669EF23008BFC97 /* Build configuration list for PBXProject "Cobain GoJreng" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -756,9 +756,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55F130F52669EF23008BFC97 /* GoJreng */,
-				55F1310E2669EF26008BFC97 /* GoJrengTests */,
-				55F131192669EF26008BFC97 /* GoJrengUITests */,
+				55F130F52669EF23008BFC97 /* Cobain GoJreng */,
+				55F1310E2669EF26008BFC97 /* Cobain GoJrengTests */,
+				55F131192669EF26008BFC97 /* Cobain GoJrengUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -941,12 +941,12 @@
 /* Begin PBXTargetDependency section */
 		55F131112669EF26008BFC97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55F130F52669EF23008BFC97 /* GoJreng */;
+			target = 55F130F52669EF23008BFC97 /* Cobain GoJreng */;
 			targetProxy = 55F131102669EF26008BFC97 /* PBXContainerItemProxy */;
 		};
 		55F1311C2669EF26008BFC97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55F130F52669EF23008BFC97 /* GoJreng */;
+			target = 55F130F52669EF23008BFC97 /* Cobain GoJreng */;
 			targetProxy = 55F1311B2669EF26008BFC97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1139,7 +1139,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoJreng.app/GoJreng";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cobain GoJreng.app/Cobain GoJreng";
 			};
 			name = Debug;
 		};
@@ -1161,7 +1161,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoJreng.app/GoJreng";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cobain GoJreng.app/Cobain GoJreng";
 			};
 			name = Release;
 		};
@@ -1208,7 +1208,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55F130F12669EF23008BFC97 /* Build configuration list for PBXProject "GoJreng" */ = {
+		55F130F12669EF23008BFC97 /* Build configuration list for PBXProject "Cobain GoJreng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55F131212669EF26008BFC97 /* Debug */,
@@ -1217,7 +1217,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55F131232669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJreng" */ = {
+		55F131232669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJreng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55F131242669EF26008BFC97 /* Debug */,
@@ -1226,7 +1226,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55F131262669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJrengTests" */ = {
+		55F131262669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJrengTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55F131272669EF26008BFC97 /* Debug */,
@@ -1235,7 +1235,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55F131292669EF26008BFC97 /* Build configuration list for PBXNativeTarget "GoJrengUITests" */ = {
+		55F131292669EF26008BFC97 /* Build configuration list for PBXNativeTarget "Cobain GoJrengUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55F1312A2669EF26008BFC97 /* Debug */,

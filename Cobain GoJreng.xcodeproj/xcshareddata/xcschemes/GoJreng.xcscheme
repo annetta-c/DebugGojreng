@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55F130F52669EF23008BFC97"
-               BuildableName = "GoJreng.app"
-               BlueprintName = "GoJreng"
-               ReferencedContainer = "container:GoJreng.xcodeproj">
+               BuildableName = "Cobain GoJreng.app"
+               BlueprintName = "Cobain GoJreng"
+               ReferencedContainer = "container:Cobain GoJreng.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55F1310E2669EF26008BFC97"
-               BuildableName = "GoJrengTests.xctest"
-               BlueprintName = "GoJrengTests"
-               ReferencedContainer = "container:GoJreng.xcodeproj">
+               BuildableName = "Cobain GoJrengTests.xctest"
+               BlueprintName = "Cobain GoJrengTests"
+               ReferencedContainer = "container:Cobain GoJreng.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55F131192669EF26008BFC97"
-               BuildableName = "GoJrengUITests.xctest"
-               BlueprintName = "GoJrengUITests"
-               ReferencedContainer = "container:GoJreng.xcodeproj">
+               BuildableName = "Cobain GoJrengUITests.xctest"
+               BlueprintName = "Cobain GoJrengUITests"
+               ReferencedContainer = "container:Cobain GoJreng.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55F130F52669EF23008BFC97"
-            BuildableName = "GoJreng.app"
-            BlueprintName = "GoJreng"
-            ReferencedContainer = "container:GoJreng.xcodeproj">
+            BuildableName = "Cobain GoJreng.app"
+            BlueprintName = "Cobain GoJreng"
+            ReferencedContainer = "container:Cobain GoJreng.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55F130F52669EF23008BFC97"
-            BuildableName = "GoJreng.app"
-            BlueprintName = "GoJreng"
-            ReferencedContainer = "container:GoJreng.xcodeproj">
+            BuildableName = "Cobain GoJreng.app"
+            BlueprintName = "Cobain GoJreng"
+            ReferencedContainer = "container:Cobain GoJreng.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

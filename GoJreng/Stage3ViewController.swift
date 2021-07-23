@@ -45,10 +45,14 @@ class Stage3ViewController: UIViewController{
     @IBOutlet weak var playButton: UIButton!
     
     //Constraint
-    @IBOutlet weak var leadingAnswer1Constraint: NSLayoutConstraint!
-    @IBOutlet weak var leadingAnswer4Constraint: NSLayoutConstraint!
-    @IBOutlet weak var trailingAnswer4Constraint: NSLayoutConstraint!
-    @IBOutlet weak var trailingAnswer3Constraint: NSLayoutConstraint!
+//    @IBOutlet weak var leadingAnswer1Constraint: NSLayoutConstraint!
+//    @IBOutlet weak var leadingAnswer4Constraint: NSLayoutConstraint!
+//    @IBOutlet weak var trailingAnswer4Constraint: NSLayoutConstraint!
+//    @IBOutlet weak var trailingAnswer3Constraint: NSLayoutConstraint!
+    
+    
+    var constraint2Items = [NSLayoutConstraint]()
+    var constraint3Items = [NSLayoutConstraint]()
     
     
     //var currentQuestion: Questions?
@@ -105,7 +109,7 @@ class Stage3ViewController: UIViewController{
         
         answer = randomQuestionsArray[currentQuestionIndex].answer
         questionNumberForPageControl.append(currentQuestionIndex)
-        updateQuestion()
+        
         optionChordCollectonView.dataSource = self
         optionChordCollectonView.delegate = self
         optionChordCollectonView.reloadData()
@@ -114,7 +118,31 @@ class Stage3ViewController: UIViewController{
         setOptionChordsCount(jumlah: answer.count-1)
         
         setTimer()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        appendConstraint()
+        updateQuestion()
+    }
+    
+    func appendConstraint() {
         
+        answer2.translatesAutoresizingMaskIntoConstraints = false
+        answer1.translatesAutoresizingMaskIntoConstraints = false
+        answer3.translatesAutoresizingMaskIntoConstraints = false
+        answer4.translatesAutoresizingMaskIntoConstraints = false
+        
+        //kalo ada 2 opt jawaban
+//        constraint2Items.append(answer2.trailingAnchor.constraint(equalTo: view.centerXAnchor, constant: 50))
+        constraint2Items.append(answer3.leadingAnchor.constraint(equalTo: view.centerXAnchor))
+        constraint2Items.append(answer2.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50))
+//        constraint2Items.append(answer3.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 50))
+        
+        
+        //kalo ada 3 opt jawaban
+        constraint3Items.append(answer2.centerXAnchor.constraint(equalTo: view.centerXAnchor))
+        constraint3Items.append(answer1.trailingAnchor.constraint(equalTo: answer2.leadingAnchor, constant: 20))
+        constraint3Items.append(answer3.leadingAnchor.constraint(equalTo: answer2.trailingAnchor, constant: 20))
     }
 
     func setTimer(){
@@ -150,22 +178,22 @@ class Stage3ViewController: UIViewController{
             answer1.isHidden = true
             answer4.isHidden = true
             
-            //            answer2.frame = CGRect(x: 113, y: 474, width: 72, height: 62)
-            //            answer3.frame = CGRect(x: 204, y: 474, width: 72, height: 62)
+            NSLayoutConstraint.activate(constraint2Items)
+            NSLayoutConstraint.deactivate(constraint3Items)
             
         } else if jumlah == 3 {
             answer4.isHidden = true
-            leadingAnswer1Constraint.constant = 67
-//            leadingAnswer4Constraint.constant = 20
-//            trailingAnswer4Constraint.constant = 67
-            trailingAnswer3Constraint.constant = 67
+            
+            NSLayoutConstraint.activate(constraint3Items)
+            NSLayoutConstraint.deactivate(constraint2Items)
+
         } else if jumlah == 8 {
             answer1.isHidden = false
             answer2.isHidden = false
             answer3.isHidden = false
             answer4.isHidden = false
-            leadingAnswer1Constraint.constant = 21
-            trailingAnswer3Constraint.constant = 113
+//            leadingAnswer1Constraint.constant = 21
+//            trailingAnswer3Constraint.constant = 113
         }
     }
     
